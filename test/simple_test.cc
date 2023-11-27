@@ -594,7 +594,7 @@ int main(int argc, char **argv)
 {
     if (argc != 2)
     {
-        fprintf(stderr, "The parameter numThread is required in main()!!!\n");
+        fprintf(stderr, "The parameter numThread is required!\n");
         return 0;
     }
 
